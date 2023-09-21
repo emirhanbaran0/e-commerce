@@ -99,7 +99,7 @@ ER Diagram:<br>
 - `PUT api/orderBasket/addProduct/{userId}/{orderBasketId}/{productId}/{quantity}` ->Add product to order basket.
 - `PUT api/orderBasket/removeProduct/{userId}/{orderBasketId}/{productId}/` -> Remove product to order basket.
 - `POST api/orderBasket/{userId}/{orderBasketId}` -> Convert an order basket to a delivery.<br><br>
-![image](https://github.com/emirhanbaran0/e-commerce/blob/master/imgs/orderbasketcontoller.png?raw=true)
+![image](https://raw.githubusercontent.com/emirhanbaran0/e-commerce/master/imgs/orderbasketcontoller.png)
 
 ### ☎️ İletişim
 
