@@ -54,7 +54,7 @@ ER Diagram:<br>
 - `GET api/admin/reportOfOrdersDailyByStatus/{date}/{status}` -> Returns report of daily orders, order by status.
 - `GET api/admin/reportOfOrdersMonthlyByStatus/{date}/{status}` -> Returns report of monthly orders, order by status.
 - `GET api/admin/reportOfOrdersYearlyByStatus/{date}/{status}` -> Returns report of yearly orders, order by status.
-- `GET api/admin/HowManyOrderHasBeenProceedYearlyAndMonthly` -> Returns how many orders has beein proceed yearly and monthly.<br>
+- `GET api/admin/HowManyOrderHasBeenProceedYearlyAndMonthly` -> Returns how many orders has beein proceed yearly and monthly.<br><br>
   ![image](https://github.com/emirhanbaran0/e-commerce/blob/master/imgs/admincontroller.png?raw=true)
 
 ### 📌 User
@@ -64,7 +64,7 @@ ER Diagram:<br>
 - `PUT api/user/{userId}/addToFavoriteList/{productId}` -> Products added to the user favorite list.
 - `PUT api/user/{userId}/addBudget` -> User add money to his/her account.
 - `PUT api/user/{userId}` ->  User update his/her account info.
-- `PUT api/user/{userId}/userUpdatePassword` ->User update his/her password.<br>
+- `PUT api/user/{userId}/userUpdatePassword` ->User update his/her password.<br><br>
 ![image](https://github.com/emirhanbaran0/e-commerce/blob/master/imgs/usecontroller.png?raw=true)
 
 ### 📌 Product
@@ -74,7 +74,7 @@ ER Diagram:<br>
 - `GET api/products/{productId}` ->Returns a product with details.
 - `POST api/products/save` -> Save product by admin.
 - `PUT api/products/update/{productId}` -> Update product info by given id.
-- `DELETE api/products/delete/{productId}` ->Delete product by given id.<br>
+- `DELETE api/products/delete/{productId}` ->Delete product by given id.<br><br>
 ![image](https://github.com/emirhanbaran0/e-commerce/blob/master/imgs/productcontroller.png?raw=true)
 
 ### 📌 Category
@@ -83,7 +83,7 @@ ER Diagram:<br>
 - `GET api/categories/contains/{name}` -> Returns category which contains given word.
 - `POST api/categories/create` -> Create a category.
 - `PUT api/categories/update/{categoryId}` -> Update category by given id.
-- `DELETE api/categories/delete/{categoryId}` -> Delete category by given id.<br>
+- `DELETE api/categories/delete/{categoryId}` -> Delete category by given id.<br><br>
 ![image](https://github.com/emirhanbaran0/e-commerce/blob/master/imgs/categorycontroller.png?raw=true)
 
 ### 📌 Order
@@ -91,15 +91,15 @@ ER Diagram:<br>
 - `GET api/orders/user/{userId}/allOrdersOrderByDate` -> Returns all orders of the user by given user id, order by date.
 - `GET api/orders/user/{userId}/allOrdersOrderByStatus` -> Returns all orders of the user by given user id, order by order status.
 - `PUT api/orders/orderToDelivery/{orderId}/{userId}/` -> Converts an order to a delivery.
-- `PUT api/orders/{orderId}/{userId}/cancelOrder` -> Cancel the user order by given user id and order id.<br>
+- `PUT api/orders/{orderId}/{userId}/cancelOrder` -> Cancel the user order by given user id and order id.<br><br>
 ![image](https://github.com/emirhanbaran0/e-commerce/blob/master/imgs/ordercontroller.png?raw=true)
 
 ### 📌 OrderBasket
 - `GET api/orderBasket/{userId}/{orderBasketId}` -> Returns all products of the user in the order basket by given user id and order basket id.
 - `PUT api/orderBasket/addProduct/{userId}/{orderBasketId}/{productId}/{quantity}` ->Add product to order basket.
 - `PUT api/orderBasket/removeProduct/{userId}/{orderBasketId}/{productId}/` -> Remove product to order basket.
-- `POST api/orderBasket/{userId}/{orderBasketId}` -> Convert an order basket to a delivery.<br>
-![image](https://github.com/emirhanbaran0/e-commerce/blob/master/imgs/orderbasketcontroller.png?raw=true)
+- `POST api/orderBasket/{userId}/{orderBasketId}` -> Convert an order basket to a delivery.<br><br>
+![image](https://github.com/emirhanbaran0/e-commerce/blob/master/imgs/orderbasketcontoller.png?raw=true)
 
 ### ☎️ İletişim
 
