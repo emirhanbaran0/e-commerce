@@ -97,9 +97,9 @@ ER Diagram:
 
 ### ☎️ İletişim
 
-[Github Hesabım](https://github.com/emirhanvaran0)
-[LinkedIn Hesabım](https://www.linkedin.com/in/emirhanabaran0/)
-[Mail Adresim](emir.baran255@gmail.com)
+[Github Account](https://github.com/emirhanvaran0)<br>
+[LinkedIn Account](https://www.linkedin.com/in/emirhanabaran0/)<br>
+[Mail](emir.baran255@gmail.com)
 
 
 ## Author and Developed by
