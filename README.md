@@ -46,7 +46,7 @@ An additional SQL table created to map the N:M mapping between the **orders** an
 
 
 
-ER Diagram:
+ER Diagram:<br>
 ![image](https://github.com/emirhanbaran0/e-commerce/blob/master/imgs/ecommercedb.png)
 
 ## 📡 API
