@@ -103,8 +103,8 @@ ER Diagram:<br>
 
 ### ☎️ İletişim
 
-[Github Account](https://github.com/emirhanvaran0)<br>
-[LinkedIn Account](https://www.linkedin.com/in/emirhanabaran0/)<br>
+[Github Account](https://github.com/emirhanbaran0)<br>
+[LinkedIn Account](https://www.linkedin.com/in/emirhanbaran0/)<br>
 [Mail](emir.baran255@gmail.com)
 
 
